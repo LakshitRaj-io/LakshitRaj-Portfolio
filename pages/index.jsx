@@ -1,6 +1,6 @@
 import HeroBanner from "../components/HeroBanner";
 import ProjectCarousel from "../components/ProjectCarousel";
-import { projects } from "../utils/projects";
+import { projects } from "../projects";
 import Navbar from "../components/Navbar";
 <>
   <Navbar />
