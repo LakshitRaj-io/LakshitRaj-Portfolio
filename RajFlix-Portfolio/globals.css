@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  background: #0f0f0f;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(to right, #131313, #1c1c1c);
+}
+
+.carousel {
+  margin: 2rem;
+}
+
+.scroll-wrapper {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  border-radius: 8px;
+  width: 250px;
+  flex-shrink: 0;
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.tech-tags span {
+  background: #292929;
+  border-radius: 4px;
+  padding: 2px 6px;
+  margin-right: 4px;
+  font-size: 0.75rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #121212;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo a {
+  font-size: 1.5rem;
+  color: #e50914;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navLinks a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.navLinks a:hover {
+  color: #e50914;
+}
