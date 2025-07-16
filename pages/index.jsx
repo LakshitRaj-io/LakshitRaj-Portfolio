@@ -1,7 +1,7 @@
-import HeroBanner from ".../components/HeroBanner";
-import ProjectCarousel from ".../components/ProjectCarousel";
+import HeroBanner from "../components/HeroBanner";
+import ProjectCarousel from "../components/ProjectCarousel";
 import { projects } from "../utils/projects";
-import Navbar from ".../components/Navbar";
+import Navbar from "../components/Navbar";
 <>
   <Navbar />
   <HeroBanner />
